@@ -1,0 +1,31 @@
+
+// Embaixo de const Modal e Storage 
+
+const Transaction = {
+  all: [
+    {
+      description: "Luz",
+      amount: -50000,
+      date: "30/01/2021",
+    },
+    {
+      description: "Criação Website",
+      amount: 100000,
+      date: "30/01/2021",
+    },
+    {
+      description: "Internet",
+      amount: -20000,
+      date: "30/01/2021",
+    },
+    {
+      description: "App",
+      amount: 40000,
+      date: "30/01/2021",
+    },
+  ]
+
+
+  Storage.set();
+
+Storage.get();
