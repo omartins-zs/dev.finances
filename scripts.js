@@ -120,9 +120,11 @@ const Utils = {
     // value = Number(value) * 100;
 
     // Metodo Mayk
-    value = Number(value.replace(/\,\./g, "")) * 100;
+    // value = Number(value.replace(/\,\./g, "")) * 100;
 
-    return value;
+    // * Metodo Aula 4 Corrigido *
+    value = value * 100;
+    return Math.round(value);
   },
 
   formatDate(date) {
